@@ -20,6 +20,9 @@ public class HelloApplication extends Application {
         pane.getChildren().add(clickme);
         Label label3= new Label("dsgfdgfdgdfhgfhghgfh");
 
+        Label test = new Label("Update testing");
+        // Testing //
+
         Button button= new Button("Button the second");
         Button bt3 = new Button("Button third!");
         Button bt4 = new Button("Button forth!");
