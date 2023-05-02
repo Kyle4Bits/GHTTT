@@ -14,7 +14,7 @@ public class HelloApplication extends Application {
     public void start(Stage stage) throws IOException {
         Pane pane = new Pane();
         Label label = new Label("Hello");
-        Label label1 = new Label("Hi");
+        Label label1 = new Label("Hiaaaaaaaaaaa");
 
         pane.getChildren().addAll(label,label1);
         Scene scene = new Scene(pane, 320, 240);
