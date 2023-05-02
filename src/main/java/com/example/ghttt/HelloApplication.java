@@ -21,6 +21,8 @@ public class HelloApplication extends Application {
 
         Button button= new Button("Button the second");
         Button bt3 = new Button("Button third!");
+        Button bt4 = new Button("Button forth!");
+
 
         pane.getChildren().addAll(label,label1, button);
         Scene scene = new Scene(pane, 320, 240);
