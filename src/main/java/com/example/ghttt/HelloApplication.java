@@ -18,6 +18,7 @@ public class HelloApplication extends Application {
         Label label1 = new Label("Hi");
         Button clickme = new Button("Click me ");
         pane.getChildren().add(clickme);
+        Label label3= new Label("dsgfdgfdgdfhgfhghgfh");
 
         Button button= new Button("Button the second");
         Button bt3 = new Button("Button third!");
