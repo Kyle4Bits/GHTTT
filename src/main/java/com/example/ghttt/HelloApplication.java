@@ -18,7 +18,10 @@ public class HelloApplication extends Application {
         Label label1 = new Label("Hi");
         Button clickme = new Button("Click me ");
         pane.getChildren().add(clickme);
-        pane.getChildren().addAll(label,label1);
+
+        Button button= new Button("Button the second");
+
+        pane.getChildren().addAll(label,label1, button);
         Scene scene = new Scene(pane, 320, 240);
         stage.setTitle("Hello!");
         stage.setScene(scene);
