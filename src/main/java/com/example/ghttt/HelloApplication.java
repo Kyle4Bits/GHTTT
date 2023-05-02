@@ -20,6 +20,7 @@ public class HelloApplication extends Application {
         pane.getChildren().add(clickme);
 
         Button button= new Button("Button the second");
+        Button bt3 = new Button("Button third!");
 
         pane.getChildren().addAll(label,label1, button);
         Scene scene = new Scene(pane, 320, 240);
