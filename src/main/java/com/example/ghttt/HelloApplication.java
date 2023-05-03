@@ -5,6 +5,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import javafx.scene.image.ImageView;
 import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
 
@@ -27,9 +28,10 @@ public class HelloApplication extends Application {
         Button bt3 = new Button("Button third!");
         Button bt4 = new Button("Button forth!");
 
+        ImageView imageView = new ImageView("file:src/Mario.png");
 
-        pane.getChildren().addAll(label,label1, button);
-        Scene scene = new Scene(pane, 320, 240);
+        pane.getChildren().addAll(label,label1, button, imageView);
+        Scene scene = new Scene(pane, 500, 500);
         stage.setTitle("Hello!");
         stage.setScene(scene);
         stage.show();
