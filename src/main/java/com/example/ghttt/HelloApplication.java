@@ -28,9 +28,12 @@ public class HelloApplication extends Application {
         Button bt3 = new Button("Button third!");
         Button bt4 = new Button("Button forth!");
 
-        ImageView imageView = new ImageView("file:src/Mario.png");
+        ImageView imageView1 = new ImageView("file:src/Mario.png");
+        ImageView imageView = new ImageView("file:src/Luigi.jpeg");
 
-        pane.getChildren().addAll(label,label1, button, imageView);
+        //Mario
+
+        pane.getChildren().addAll(label,label1, button, imageView, imageView1);
         Scene scene = new Scene(pane, 500, 500);
         stage.setTitle("Hello!");
         stage.setScene(scene);
